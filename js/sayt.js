@@ -333,7 +333,7 @@ const changeValue = () => {
         let aValue = +murekkebInput.value
         let umumi = aValue * sValue
         sehife.innerHTML = sehifeInput.value
-        sehifePrice.innerHTML = umumi > 400 ? umumi : 400
+        sehifePrice.innerHTML = umumi 
         azn.innerHTML = umumi
         result(umumi)
 }
@@ -428,10 +428,9 @@ const changeEccomerce = (checkbox, price) => {
 };
 
 const logoPrice = () => {
-        let logo = input.value * 100;
-        console.log(logo);
-        manat.innerHTML = logo;
-        logoDizayn.innerHTML = logo;
+        totalLogoPrice = input.value * 100;
+        manat.innerHTML = totalLogoPrice;
+        logoDizayn.innerHTML = totalLogoPrice;
         result();
 };
 
