@@ -741,6 +741,10 @@ video {
   margin-bottom: 14px;
 }
 
+.mb-\[15px\] {
+  margin-bottom: 15px;
+}
+
 .mb-\[24px\] {
   margin-bottom: 24px;
 }
@@ -827,14 +831,6 @@ video {
 
 .mt-\[4px\] {
   margin-top: 4px;
-}
-
-.mb-\[153px\] {
-  margin-bottom: 153px;
-}
-
-.mb-\[15px\] {
-  margin-bottom: 15px;
 }
 
 .box-border {
@@ -1694,6 +1690,11 @@ video {
   padding-bottom: 1rem;
 }
 
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -1702,11 +1703,6 @@ video {
 .py-\[10px\] {
   padding-top: 10px;
   padding-bottom: 10px;
-}
-
-.py-5 {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
 }
 
 .\!pl-2 {
@@ -1755,10 +1751,6 @@ video {
 
 .pt-\[9px\] {
   padding-top: 9px;
-}
-
-.pt-5 {
-  padding-top: 1.25rem;
 }
 
 .text-left {
@@ -2440,6 +2432,17 @@ video {
   }
 }
 
+@media not all and (min-width: 640px) {
+  .max-tablet\:p-\[10px\] {
+    padding: 10px;
+  }
+
+  .max-tablet\:py-\[10px\] {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
 @media not all and (min-width: 550px) {
   .max-lsm\:hidden {
     display: none;
@@ -2670,10 +2673,6 @@ video {
     margin-bottom: 2rem;
   }
 
-  .md\:mb-\[153px\] {
-    margin-bottom: 153px;
-  }
-
   .md\:ml-4 {
     margin-left: 1rem;
   }
@@ -2684,14 +2683,6 @@ video {
 
   .md\:mt-12 {
     margin-top: 3rem;
-  }
-
-  .md\:mb-\[1px\] {
-    margin-bottom: 1px;
-  }
-
-  .md\:mb-\[15px\] {
-    margin-bottom: 15px;
   }
 
   .md\:flex {
